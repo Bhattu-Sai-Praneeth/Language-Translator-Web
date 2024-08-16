@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Live Language Translator</title>
+</head>
+<body>
+    <div class="translator-container">
+        <h1>Live Language Translator</h1>
+        <div class="translation-box">
+            <textarea id="source-text" placeholder="Enter text to translate"></textarea>
+            <button id="translate-button">Translate</button>
+            <textarea id="translated-text" placeholder="Translation" readonly></textarea>
+        </div>
+        <div class="language-selection">
+            <select id="from-language"></select>
+            <select id="to-language"></select>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
